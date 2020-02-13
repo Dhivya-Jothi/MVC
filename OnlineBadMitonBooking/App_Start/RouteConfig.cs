@@ -26,6 +26,10 @@ namespace OnlineBadMitonBooking
 			routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
+
+
+
+
                 defaults: new { controller = "BookCourt", action = "Booking", id = UrlParameter.Optional }
             );
         }
